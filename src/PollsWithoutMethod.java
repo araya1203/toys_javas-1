@@ -1,9 +1,13 @@
-
 import java.util.Scanner;
 
 public class PollsWithoutMethod {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("> 이름을 입력하세요");
+        System.out.print("이름) ");
+        String name = scanner.nextLine();
+        System.out.println();
 
         // 질문을 담은 문자열 배열 저장
         String[] questions = {
