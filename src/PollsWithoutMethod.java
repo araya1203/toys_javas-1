@@ -33,6 +33,7 @@ public class PollsWithoutMethod {
         }
 
         System.out.println("---------------설문 종료---------------");
+        System.out.println();
         System.out.println("---------------설문 결과---------------");
         
 
