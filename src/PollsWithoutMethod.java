@@ -20,7 +20,6 @@ public class PollsWithoutMethod {
         // 질문에 갯수에 해당하는 만큼 답변의 길이 배열
         int[] answers = new int[questions.length];
 
-        // 
         for (int first = 0; first < questions.length; first++) {
             System.out.println(questions[first]);
             System.out.println("(1) 전혀 아니다. (2) 아니다. (3) 그렇다. (4) 매우 그렇다.");
