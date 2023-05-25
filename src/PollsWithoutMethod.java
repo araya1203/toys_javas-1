@@ -20,6 +20,7 @@ public class PollsWithoutMethod {
         for (int first = 0; first < questions.length; first++) {
             System.out.println(questions[first]);
             System.out.println("(1) 전혀 아니다. (2) 아니다. (3) 그렇다. (4) 매우 그렇다.");
+            System.out.println();
 
             while (true) {
                 System.out.print("답) ");
@@ -27,6 +28,7 @@ public class PollsWithoutMethod {
 
                 if (answer >= 1 && answer <= 4) {
                     answers[first] = answer;
+                    System.out.println();
                     break;
                 }
             }
