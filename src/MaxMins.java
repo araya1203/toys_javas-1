@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class MaxMins {
+        // 두 숫자 중 최댓값을 구하는 메서드
+        public static int getMax(int num1, int num2) {
+            return Math.max(num1, num2);
+        }
+
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in); // Create a Scanner object
         try {
@@ -16,10 +21,5 @@ public class MaxMins {
         } catch (Exception e) {
             System.out.println("올바른 숫자를 입력해주세요.");
         }
-    }
-
-    // 두 숫자 중 최댓값을 구하는 메서드
-    public static int getMax(int num1, int num2) {
-        return Math.max(num1, num2);
     }
 }
