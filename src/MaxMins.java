@@ -8,6 +8,8 @@ public class MaxMins {
         public static int getMin(int first, int second) {
             return Math.min(first, second);
         }
+        
+        //213214
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in); // Create a Scanner object
         try {
