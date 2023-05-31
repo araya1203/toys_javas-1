@@ -5,7 +5,9 @@ public class MaxMins {
         public static int getMax(int num1, int num2) {
             return Math.max(num1, num2);
         }
-
+        public static int getMin(int first, int second) {
+            return Math.min(first, second);
+        }
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in); // Create a Scanner object
         try {
