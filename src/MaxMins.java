@@ -20,6 +20,16 @@ public class MaxMins {
             int max = getMax(num1, num2); // getMax 메서드를 호출하여 max 값을 구함
 
             System.out.println("두 숫자 중 최댓값은 " + max + "입니다.");
+
+            int first = 0;
+            int second = 0;
+            first = myObj.nextInt();
+            second = myObj.nextInt();
+
+            int min = getMin(first, second);
+
+            System.out.println(min);
+
         } catch (Exception e) {
             System.out.println("올바른 숫자를 입력해주세요.");
         }
