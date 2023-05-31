@@ -28,7 +28,7 @@ public class MaxMins {
 
             int min = getMin(first, second);
 
-            System.out.println(min);
+            System.out.println("두 숫자 중 최소은 "+ min+ "입니다");
 
         } catch (Exception e) {
             System.out.println("올바른 숫자를 입력해주세요.");
